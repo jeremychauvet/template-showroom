@@ -1,4 +1,4 @@
-.PHONY: lint
+.PHONY: validate
 
-lint:
+validate:
 	pre-commit run --all-files
