@@ -9,7 +9,7 @@ repos:
       - id: terraform_tflint
       - id: checkov
   - repo: https://github.com/ansible/ansible-lint.git
-    rev: v5.0.12
+    rev: v5.1.2
     hooks:
       - id: ansible-lint
         files: \.(yaml|yml)$
